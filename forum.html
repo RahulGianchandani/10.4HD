@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <link rel="icon" href="./images/favIcon.ico.png" sizes="16x16" type="image/png">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Js File -->
+  <script src='./js/script.js'></script>
+
+  <!-- Google Rcaptcha -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  <!-- Normal Custom CSS -->
+  <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+  <title>Forums | PAK DRIVE</title>
+  <!-- OWL CAROUSEL LINK -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body id="forum">
+  <!-- FIRST MINI NAV -->
+  <div id="firstnav">
+    <div class="container">
+      <div class="row align-items-center justify-content-center py-1">
+        <div class="col-12 col-sm-6 text-left">
+          <ul class="d-flex align-items-center justify-content-sm-start justify-content-center my-0 px-0">
+            <li class="px-2 px-lg-3 px-xl-3 "><a href="#"><span class="firstNavIcons"><i
+                    class="fab fa-facebook"></i></span></a></li>
+            <li class="px-2 px-lg-3 px-xl-3 "><a href="#"><span class="firstNavIcons"><i
+                    class="fab fa-twitter"></i></span></a></li>
+            <li class="px-2 px-lg-3 px-xl-3 "><a href="#"><span class="firstNavIcons"><i
+                    class="fab fa-linkedin-in"></i></span></a></li>
+            <li class="px-2 px-lg-3 px-xl-3 "><a href="#"><span class="firstNavIcons"><i
+                    class="fab fa-google-plus-g"></i></span></a></li>
+            <li class="px-2 px-lg-3 px-xl-3 "><a id="midline"></a></li>
+            <li>
+              <div class="dropdown">
+                <button class="btn dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Language
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">English (UK)</a>
+                  <a class="dropdown-item" href="#">English (US)</a>
+                  <a class="dropdown-item" href="#">Urdu</a>
+                  <a class="dropdown-item" href="#">Sindhi</a>
+                  <a class="dropdown-item" href="#">Bengali</a>
+                  <a class="dropdown-item" href="#">Español</a>
+                  <a class="dropdown-item" href="#">Spanish</a>
+                  <a class="dropdown-item" href="#">Arabic</a>
+                  <a class="dropdown-item" href="#">Chinese</a>
+                  <a class="dropdown-item" href="#">Hindi</a>
+                  <a class="dropdown-item" href="#">Russian</a>
+                  <a class="dropdown-item" href="#">French</a>
+                  <a class="dropdown-item" href="#">Portguese</a>
+                  <a class="dropdown-item" href="#">Dutch</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Another Language?</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-6 text-sm-right text-center my-1">
+          <a href="./register.html" class="mr-3"><span class="loginIcons mr-2"><i
+                class="fas fa-user"></i></span>Register</a>
+          <a href="./login.html" class=""><span class="loginIcons mr-2"><i
+                class="fas fa-arrow-right"></i></span>Login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- FIRST MINI NAV -->
+
+
+  <!-- MAIN NAVBAR -->
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+
+        <a id="logoIcon" class="navbar-brand" href="./index.html"><img src="./images/Nav-logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+          <ul id="Items" class="navbar-nav justify-content-between align-items-lg-center">
+            <li class="nav-item  mr-2">
+              <a class="nav-link" href="./usedcars.html">Used Cars<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="./newcars.html">New Cars</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="./autostore.html">Auto Store</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="./videos.html">Videos</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="./forum.html">Forum</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="./blog.html">Blog</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="./advertise.html"><i class="fas fa-car mr-2"></i>Post an Ad</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- MAIN NAVBAR ENDS -->
+
+
+  <div id="forumSection" class="">
+    <div class="mx-md-3 mx-lg-5 pb-5">
+    <h2 class="text-center py-5 ">PakDrive Forums</h2>
+    <div id="BothForums" class="row mx-0">
+    <div id="mainForum" class=" col-12 col-md-9    px-sm-5">
+    <div class="row  col-12 justify-content-between align-items-end  mx-0 px-0 py-3">
+      <a href="#" id="newTopic"><i class="fas fa-pen mr-2 align-middle"></i>New Post</a>
+      <a href="#" id="UnansThread" class="font-weight-bold">Unanswered Threads</a>
+    </div>
+    <div class="forumTable col-12 col-12 ">
+      <ul class="row list-unstyled headings mb-0 py-3">
+        <li class="col-4">Forum</li>
+        <li class="col-4">New Post</li>
+        <li class="col-2">Threads</li>
+        <li class="col-2">Posts</li>
+      </ul>
+      <ul class="row list-unstyled mb-0 py-3">
+        <li class="col-4"><a href="#"><h6 class="mb-0">News & Update</h6></a>
+          <p>Latest News & Updates regarding the forum. Only mods have access to post in it.</p>
+        </li>
+        <li class="col-4"><a href="#" class="mb-1">Hello, Thank you for joining!</a><p class=" border-bottom pb-3"> <span>by</span> <a href="#" class="PosterName">JustinBieber</a>, <span>23-Oct-2021, 2:03 AM</span></p><a href="#" class="mb-1">Purpose of PakDrive.</a><p> <span>by</span> <a href="#" class="PosterName">Arnold_sch</a>, <span>54-Jan-2021, 4:23 PM</span></p></li>
+        <li class="col-2">230</li>
+        <li class="col-2">1200</li>
+      </ul>
+      <ul class="row list-unstyled mb-0 py-3">
+        <li class="col-4"><a href="#"><h6 class="mb-0">General Discussion</h6></a>
+          <p>Talk about anything Car related that does fit into this category indeed.</p>
+        </li>
+        <li class="col-4"><a href="#" class="mb-1">What cars do you have?</a><p class=" border-bottom pb-3"> <span>by</span> <a href="#" class="PosterName">PaulWalker</a>, <span>29-Aug-2020, 4:23 PM</span></p><a href="#" class="mb-1">What car do you have and WHY!!?</a><p> <span>by</span> <a href="#" class="PosterName">googleFake</a>, <span>15-Oct-2020, 3:43 AM</span></p></li>
+        <li class="col-2">120</li>
+        <li class="col-2">900</li>
+      </ul>
+      <ul class="row list-unstyled mb-0 py-3">
+        <li class="col-4"><a href="#"><h6 class="mb-0">Repair & Maintenance</h6></a>
+          <p>Get repair help with your car or share your repair knowledge with others.</p>
+        </li>
+        <li class="col-4"><a href="#" class="mb-1">Repair my Car please, for free?</a><p class=" border-bottom pb-3"> <span>by</span> <a href="#" class="PosterName">RahulGCD</a>, <span>13-July-2022, 3:09 AM</span></p><a href="#" class="mb-1">Can you repair my bumper?</a><p> <span>by</span> <a href="#" class="PosterName">lol@21</a>, <span>22-Feb-2022, 22:34 PM</span></p></li>
+        <li class="col-2">590</li>
+        <li class="col-2">3400</li>
+      </ul>
+      <ul class="row list-unstyled mb-0 py-3">
+        <li class="col-4"><a href="#"><h6 class="mb-0">Spares & Accessories</h6></a>
+          <p>Discuss spares parts or accessories availabity related issues.</p>
+        </li>
+        <li class="col-4"><a href="#" class="mb-1"> for new Honda amaze 2nd generaton</a><p class=" border-bottom pb-3"> <span>by</span> <a href="#" class="PosterName">xyz_123</a>, <span>24-June-2020, 2:03 PM</span></p><a href="#" class="mb-1">Suggest spray for coating car roof</a><p> <span>by</span> <a href="#" class="PosterName">iamME</a>, <span>12-July-2020, 11:49 AM</span></p></li>
+        <li class="col-2">930</li>
+        <li class="col-2">12000</li>
+      </ul>
+      <ul class="row list-unstyled mb-0 py-3">
+        <li class="col-4"><a href="#"><h6 class="mb-0">Tuning & Performance</h6></a>
+          <p>Want to speed up your car a little bit or you want to tell others how they can do the same? Post here then!</p>
+        </li>
+        <li class="col-4"><a href="#" class="mb-1">Bad performance of bike after tuning.</a><p class=" border-bottom pb-3"> <span>by</span> <a href="#" class="PosterName">uNknown_423</a>, <span>2-Feb-2021, 7:40 AM</span></p><a href="#" class="mb-1">Best shop to get my Alto 1995 tuning?</a><p> <span>by</span> <a href="#" class="PosterName">noOne_2244</a>, <span>23-Oct-2021, 5:42 PM</span></p></li>
+        <li class="col-2">2320</li>
+        <li class="col-2">1030</li>
+      </ul>
+      <ul class="row list-unstyled mb-0 py-3">
+        <li class="col-4"><a href="#"><h6 class="mb-0">Buying & Selling</h6></a>
+          <p>Debate your new purchase or how you should sell your car easily. Everything related to buying and selling.</p>
+        </li>
+        <li class="col-4"><a href="#" class="mb-1">Mehran model 2012 Vs Ferrari 2021</a><p class=" border-bottom pb-3"> <span>by</span> <a href="#" class="PosterName">ElenaSr</a>, <span>30-Jan-2021, 2:30 PM</span></p><a href="#" class="mb-1">Should I sell my New City 2021?</a><p> <span>by</span> <a href="#" class="PosterName">Ms.Ana2021</a>, <span>8-Dec-2021, 4:20 AM</span></p></li>
+        <li class="col-2">23</li>
+        <li class="col-2">400</li>
+      </ul>
+      <ul class="row list-unstyled mb-0 py-3">
+        <li class="col-4"><a href="#"><h6 class="mb-0">	Reviews - Owners & Users</h6></a>
+          <p>Write your own road-test, review, test-drive or long-term ownership experience.</p>
+        </li>
+        <li class="col-4"><a href="#" class="mb-1">Pefect car of 2021, Audi 2015!!</a><p class=" border-bottom pb-3"> <span>by</span> <a href="#" class="PosterName">Sr.Don</a>, <span>19-Dec-2021, 11:23 AM</span></p><a href="#" class="mb-1">Post some reviews of MG Corrola</a><p> <span>by</span> <a href="#" class="PosterName">User124412344</a>, <span>5-Sept-2021, 3:43 PM</span></p></li>
+        <li class="col-2">90</li>
+        <li class="col-2">140</li>
+      </ul>
+      <ul class="row list-unstyled mb-0 py-3">
+        <li class="col-4"><a href="#"><h6 class="mb-0">Site Feedback</h6></a>
+          <p>Do you have something that you do not like about our site, or have a suggestion of how we can do better? Let us know here!</p>
+        </li>
+        <li class="col-4"><a href="#" class="mb-1">Website Developer Rahul is genius wow!!</a><p class=" border-bottom pb-3"> <span>by</span> <a href="#" class="PosterName">Nobody</a>, <span>2-Sept-2021, 9:23 PM</span></p><a href="#" class="mb-1">How do I create an account ?</a><p> <span>by</span> <a href="#" class="PosterName">User44444111111212</a>, <span>3-Aug-2021, 8:23 AM</span></p></li>
+        <li class="col-2">560</li>
+        <li class="col-2">120</li>
+      </ul>
+    </div>
+      </div>
+      <aside class="col-12 col-md-3 px-5 px-md-2">
+      <div id="recentForum" class="recent ">
+        <div class="container">
+        <p class="py-3">Recent Topics</p>
+        <ul class="px-0">
+        <li class=" mb-3 list-unstyled"><a href="#" class="mb-1">Get it fixed right now!!</a><p class="mb-3"> <span>by</span> <a href="#" class="PosterName">Sk_Spawn</a> <span class="d-block">2-Sept-2021, 9:23 PM</span></p></li>
+        <li class=" mb-3 list-unstyled"><a href="#" class="mb-1">I need audi latest model for free.</a><p class="mb-3"> <span>by</span> <a href="#" class="PosterName">Team42</a> <span class="d-block"> 23-Oct-2021, 2:03 AM</span></p></li>
+        <li class=" mb-3 list-unstyled"><a href="#" class="mb-1">Review new Alto GLI</a><p class="mb-3"> <span>by</span> <a href="#" class="PosterName">Affi</a> <span class="d-block">30-Jan-2021, 2:30 PM</span></p></li>
+        <li class=" mb-3 list-unstyled"><a href="#" class="mb-1">USB suggesstion for my new Bike socket</a><p class="mb-3"> <span>by</span> <a href="#" class="PosterName">BenStocks</a> <span class="d-block">29-Aug-2020, 4:23 PM</span></p></li>
+        <li class=" mb-3 list-unstyled"><a href="#" class="mb-1">PakDrive Owner Name</a><p class="mb-3"> <span>by</span> <a href="#" class="PosterName">PakDrive_Emp</a> <span class="d-block">13-July-2022, 3:09 AM</span></p></li>
+      </ul>
+      </div>
+    </div>
+      <div id="recentBlog" class="recent mt-5">
+        <div class="container">
+        <p class="py-3">Recent Blog Posts</p>
+        <ul class="px-0">
+        <li class="mb-3 list-unstyled"><a href="#" class="mb-1"><h6 class="py-2">Beauty of PakDrive</h6></a></li>
+        <li class="mb-3 list-unstyled"><a href="#" class="mb-1"><h6 class="py-2">Top Sales from Toyota this Month!!</h6></a></li>
+        <li class="mb-3 list-unstyled"><a href="#" class="mb-1"><h6 class="py-2">Is Mehran still the Boss?</h6></a></li>
+        <li class="mb-3 list-unstyled"><a href="#" class="mb-1"><h6 class="py-2">Increase in Petrol Prices Lately</h6></a></li>
+        <li class="mb-3 list-unstyled"><a href="#" class="mb-1"><h6 class="py-2">How Rahul Developed this Website?</h6></a></li>
+      </ul>
+      </div>
+    </div>
+  </aside>
+    </div>
+  
+  </div>
+</div>
+
+
+
+
+  <!-- FOOTER -->
+  <Footer id="footer">
+    <div class="footer-top text-white py-5">
+      <div class=" container">
+        <div class="row justify-content-between text-center text-md-left  ">
+          <!-- FOOTER TOP -->
+
+          <section id="Resources" class="pb-5 pb-md-0col-xl-2 col-lg-2 col-md-2 ">
+            <h5 class="text-white pb-5">Resources</h5>
+            <ul class="px-0 text-secondary">
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">About PakDrives</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="./advertise.html">Advertise
+                  With Us</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">How to Pay</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="./FAQ.html">FAQs</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">Refunds & Returns</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">Careers</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="./contactus.html">Contact
+                  Us</a></li>
+            </ul>
+
+          </section>
+
+          <section id="ProvinceCars" class="pb-5 pb-md-0col-xl-3 col-lg-3 col-md-3 ">
+            <h5 class="text-white pb-5">Cars by Province</h5>
+            <ul class="px-0 text-secondary">
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">Cars in Punjab</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">Cars in Sindh</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">Cars in KPK</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">Cars in Balochistan</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">Azad Kashmir</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">Federally Administered
+                  Tribal Areas</a></li>
+            </ul>
+
+          </section>
+          <section id="Contact" class="pb-5 pb-md-0col-xl-3 col-lg-3 col-md-4 ">
+            <h5 class="text-white pb-5">Contact</h5>
+            <ul class="px-0 text-secondary">
+              <li class="list-unstyled text-decoration-none mb-2 mb-md-3 mb-lg-2"><a href="#"><span
+                    class="ContactIcons mr-2"><i class="fas fa-car footerIcon "></i></span>5 Milburn Ct, Endeavor Hills, Melbourne, Australia</a></li>
+              <li class="list-unstyled text-decoration-none mb-2 mb-md-3 mb-lg-2"><a
+                  href="mailto:pakdrives@example.com"><span class="ContactIcons mr-2"><i
+                      class="fas fa-envelope footerIcon"></i></span>pakdrives@example.com</a></li>
+              <li class="list-unstyled text-decoration-none mb-2 mb-md-3 mb-lg-2"><a href="tel:+01123456789"><span
+                    class="ContactIcons mr-2"><i class=" fas fa-phone-alt footerIcon"></i></span>+01 1234 567 89</a>
+              </li>
+            </ul>
+            <form  action="somefile.php" method="post" name="myForm" class="row ml-0 mt-md-4 mt-4 no-gutters">
+              <div class="col-8 col-md-7">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="Email" required>
+              </div>
+              <button type="submit" class="btn btn-primary col-4 col-md-5">Subscribe</button>
+            </form>
+          </section>
+
+          <section id="Follow" class="pb-5 pb-md-0 col-xl-3 col-lg-3 col-md-3 ">
+            <h5 class="text-white pb-5 mb-0">Follow Us</h5>
+            <ul class="ml-0 px-0 row justify-content-center justify-content-md-start">
+              <li class="mr-3 mr-md-2 mr-lg-3   list-unstyled text-decoration-none"><a href="#"><span
+                    class="footerSocialIcons"><i class="fab fa-facebook-f"></i></span></a></li>
+              <li class="mr-3 mr-md-2 mr-lg-3  list-unstyled text-decoration-none "><a href="#"><span
+                    class="footerSocialIcons"><i class="fab fa-linkedin-in"></i></span></a></li>
+              <li class="mr-3 mr-md-2 mr-lg-3  list-unstyled text-decoration-none"><a href="#"><span
+                    class="footerSocialIcons"><i class="fab fa-twitter"></i></span></a></li>
+              <li class="mr-3 mr-md-2 mr-lg-3  list-unstyled text-decoration-none"><a href="#"><span
+                    class="footerSocialIcons"><i class="fab fa-google-plus-g"></i></span></a></li>
+            </ul>
+            <h5 class="position-relative mt-5 mt-md-4 pb-5 mb-0">Donwload App</h5>
+            <div class="row badges justify-content-center justify-content-md-between ml-0">
+              <a href="#" class="mb-md-3 mb-lg-0 mr-3 mr-md-0"><img src="./images/google-play-badge.png"
+                  alt="google play store badge"></a>
+              <a href="#"><img src="./images/app-store-Badge.png" alt="apple app store badge"></a>
+            </div>
+          </section>
+
+
+          <!-- FOOTER  TOP ENDS -->
+
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER - BOTTOM  -->
+
+    <div id="bottom" class="footer-bottom py-3">
+      <div class="container">
+        <div class="row justify-content-center">
+
+          <p class="my-0">Copyright &#169; 2020-<span>Rahul Gianchandani</span>. All rights reserved. </p>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="scrolltotop">
+      <a href="#top"><i class="fa fa-arrow-circle-up"></i></a>
+    </div>
+  </Footer>
+  <!-- FOOTER ENDS -->
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <!-- OWL CAROUSEL CDN SCRIPT LINK -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+
+</body>
+
+</html>
