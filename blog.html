@@ -12,8 +12,8 @@
   <link rel="icon" href="./images/favIcon.ico.png" sizes="16x16" type="image/png">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <!-- Js File -->
   <script src='./js/script.js'></script>
 
@@ -37,8 +37,8 @@
   <!-- FIRST MINI NAV -->
   <div id="firstnav">
     <div class="container">
-      <div class="row align-items-center justify-content-center py-1">
-        <div class="col-12 col-sm-6 text-left">
+      <div class="d-flex align-items-center justify-content-center py-1">
+        <div class="col-12 col-sm-6 text-start">
           <ul class="d-flex align-items-center justify-content-sm-start justify-content-center my-0 px-0">
             <li class="px-2 px-lg-3 px-xl-3 "><a href="#"><span class="firstNavIcons"><i
                     class="fab fa-facebook"></i></span></a></li>
@@ -77,10 +77,10 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-sm-6 text-sm-right text-center my-1">
-          <a href="./register.html" class="mr-3"><span class="loginIcons mr-2"><i
+        <div class="col-12 col-sm-6 text-sm-end text-center my-1">
+          <a href="./register.html" class="me-3"><span class="loginIcons me-2"><i
                 class="fas fa-user"></i></span>Register</a>
-          <a href="./login.html" class=""><span class="loginIcons mr-2"><i
+          <a href="./login.html" class=""><span class="loginIcons me-2"><i
                 class="fas fa-arrow-right"></i></span>Login</a>
         </div>
       </div>
@@ -104,26 +104,26 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 
           <ul id="Items" class="navbar-nav justify-content-between align-items-lg-center">
-            <li class="nav-item  mr-2">
+            <li class="nav-item  me-2">
               <a class="nav-link" href="./usedcars.html">Used Cars<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item mr-3">
+            <li class="nav-item me-3">
               <a class="nav-link" href="./newcars.html">New Cars</a>
             </li>
-            <li class="nav-item mr-3">
+            <li class="nav-item me-3">
               <a class="nav-link" href="./autostore.html">Auto Store</a>
             </li>
-            <li class="nav-item mr-3">
+            <li class="nav-item me-3">
               <a class="nav-link" href="./videos.html">Videos</a>
             </li>
-            <li class="nav-item mr-3">
+            <li class="nav-item me-3">
               <a class="nav-link" href="./forum.html">Forum</a>
             </li>
-            <li class="nav-item mr-3">
+            <li class="nav-item me-3">
               <a class="nav-link" href="./blog.html">Blog</a>
             </li>
-            <li class="nav-item mr-3">
-              <a class="nav-link" href="./advertise.html"><i class="fas fa-car mr-2"></i>Post an Ad</a>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="./advertise.html"><i class="fas fa-car me-2"></i>Post an Ad</a>
             </li>
           </ul>
         </div>
@@ -137,17 +137,17 @@
 
   <section id="Carnav">
     <div class="container h-100">
-      <div class="row flex-lg-column  align-items-center align-content-center justify-content-center pt-5">
+      <div class="d-flex flex-lg-column  align-items-center align-content-center justify-content-center pt-5">
         <h1 class="mb-3">PakDrive Blog</h1>
         <p class="mx-5 text-center">Read our posts and get to know everything about cars and related stuff and stay up to date!</p>
 
         <form action="somefile.php" method="post" name="myForm" 
-          class="row col-10 no-gutters flex-sm-row flex-column  align-items-center justify-content-center  p-4 rounded z-index-1000">
+          class="d-flex col-10 no-gutters flex-sm-row flex-column flex-wrap  align-items-center justify-content-center  p-4 rounded z-index-1000">
           <div class="form-group col-12 col-sm-9 mb-0">
             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Search Blog Posts">
           </div>
           <button type="submit" class="btn btn-primary col-12 col-sm-3 mt-4 mt-sm-0"><i
-              class="fas fa-search mr-2 "></i>Search</button>
+              class="fas fa-search me-2 "></i>Search</button>
         </form>
       </div>
     </div>
@@ -160,9 +160,9 @@
 
   <section id="newposts" class="blogposts my-5 my-sm-0">
     <div class="container">
-      <div class="row  justify-content-between flex-column flex-sm-row ">
+      <div class="d-flex  justify-content-between flex-column flex-wrap flex-sm-row ">
         <h2 class="text-center py-5 mt-5 position-relative col-12">New Posts</h2>
-        <div class="mb-5 col-12 col-md-6 col-lg-4">
+        <div class="mb-5 col-12 col-md-6 col-lg-4 p-3">
         <div class="card position-relative" >
           <a href="#">
           <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="200px" alt="Card image cap">
@@ -178,11 +178,11 @@
             </div> 
           </div>
           <div class="card-footer">
-            <small class="text-muted">September 17, 2021</small>
+            <small class="text-muted">September 17, 2024</small>
           </div>
         </div>
       </div>
-      <div class="mb-5 col-12 col-md-6 col-lg-4">
+      <div class="mb-5 col-12 col-md-6 col-lg-4 p-3">
         <div class="card position-relative" >
           <a href="#">
           <img class="card-img-top" src="./images/blog-pics/car.jpg" height="200px" alt="Card image cap">
@@ -198,11 +198,11 @@
             </div> 
           </div>
           <div class="card-footer">
-            <small class="text-muted">Auguest 20, 2021</small>
+            <small class="text-muted">Auguest 20, 2024</small>
           </div>
           </div>
         </div>
-        <div class="mb-5 col-12 col-md-6 col-lg-4">
+        <div class="mb-5 col-12 col-md-6 col-lg-4 p-3">
         <div class="card position-relative" >
           <a href="#">
           <img class="card-img-top" src="./images/blog-pics/valuableMakers.jpg" height="200px" alt="Card image cap">
@@ -218,11 +218,11 @@
             </div> 
           </div>
           <div class="card-footer">
-            <small class="text-muted">November 2, 2021</small>
+            <small class="text-muted">November 2, 2024</small>
           </div>
           </div>
         </div>
-        <div class="mb-5 col-12 col-md-6 col-lg-4">
+        <div class="mb-5 col-12 col-md-6 col-lg-4 p-3">
         <div class="card position-relative" >
           <a href="#">
           <img class="card-img-top" src="./images/blog-pics/ford.jpg" height="200px" alt="Card image cap">
@@ -238,11 +238,11 @@
             </div> 
           </div>
           <div class="card-footer">
-            <small class="text-muted">July 5, 2021</small>
+            <small class="text-muted">July 5, 2024</small>
           </div>
           </div>
         </div>
-        <div class="mb-5 col-12 col-md-6 col-lg-4">
+        <div class="mb-5 col-12 col-md-6 col-lg-4 p-3">
         <div class="card position-relative" >
           <a href="#">
           <img class="card-img-top" src="./images/blog-pics/ladies.jpg" height="200px" alt="Card image cap">
@@ -258,11 +258,11 @@
             </div> 
           </div>
           <div class="card-footer">
-            <small class="text-muted">June 19, 2021</small>
+            <small class="text-muted">June 19, 2024</small>
           </div>
           </div>
         </div>
-        <div class="mb-5 col-12 col-md-6 col-lg-4">
+        <div class="mb-5 col-12 col-md-6 col-lg-4 p-3">
         <div class="card position-relative" >
           <a href="#">
           <img class="card-img-top" src="./images/blog-pics/camera.jpg" height="200px" alt="Card image cap">
@@ -278,11 +278,11 @@
             </div> 
           </div>
           <div class="card-footer">
-            <small class="text-muted">September 27, 2021</small>
+            <small class="text-muted">September 27, 2024</small>
           </div>
           </div>
         </div>
-        <div class="mb-5 col-12 col-md-6 col-lg-4">
+        <div class="mb-5 col-12 col-md-6 col-lg-4 p-3">
         <div class="card position-relative" >
           <a href="#">
           <img class="card-img-top" src="./images/blog-pics/sherlockCar.jpg" height="200px" alt="Card image cap">
@@ -298,11 +298,11 @@
             </div> 
           </div>
           <div class="card-footer">
-            <small class="text-muted">October 6, 2021</small>
+            <small class="text-muted">October 6, 2024</small>
           </div>
           </div>
         </div>
-        <div class="mb-5 col-12 col-md-6 col-lg-4">
+        <div class="mb-5 col-12 col-md-6 col-lg-4 p-3">
         <div class="card position-relative" >
           <a href="#">
           <img class="card-img-top" src="./images/blog-pics/tesla.jpg" height="200px" alt="Card image cap">
@@ -322,7 +322,7 @@
           </div>
           </div>
         </div>
-        <div class="mb-5 col-12 col-md-6 col-lg-4">
+        <div class="mb-5 col-12 col-md-6 col-lg-4 p-3">
         <div class="card position-relative" >
           <a href="#">
           <img class="card-img-top" src="./images/blog-pics/toyota.png" height="200px" alt="Card image cap">
@@ -338,7 +338,7 @@
             </div> 
           </div>
           <div class="card-footer">
-            <small class="text-muted">April 1, 2021</small>
+            <small class="text-muted">April 1, 2024</small>
           </div>
           </div>
         </div>
@@ -353,9 +353,9 @@
  <!-- POPULAR POSTS -->
   <section id="popularposts" class="bg-white blogposts my-5">
     <div class="container">
-      <div class="row  justify-content-between flex-column flex-sm-row ">
+      <div class="d-flex  justify-content-between flex-column flex-wrap flex-sm-row ">
         <h2 class="text-center py-5 position-relative col-12">Popular Posts</h2>
-        <div class="mb-5 col-12 col-md-6 col-lg-4">
+        <div class="mb-5 col-12 col-md-6 col-lg-4 p-3">
         <div class="card position-relative" >
           <a href="#">
           <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="200px" alt="Card image cap">
@@ -371,11 +371,11 @@
             </div> 
           </div>
           <div class="card-footer">
-            <small class="text-muted">September 17, 2021</small>
+            <small class="text-muted">September 17, 2024</small>
           </div>
         </div>
       </div>
-      <div class="mb-5 col-12 col-md-6 col-lg-4">
+      <div class="mb-5 col-12 col-md-6 col-lg-4 p-3">
         <div class="card position-relative" >
           <a href="#">
           <img class="card-img-top" src="./images/blog-pics/car.jpg" height="200px" alt="Card image cap">
@@ -391,11 +391,11 @@
             </div> 
           </div>
           <div class="card-footer">
-            <small class="text-muted">Auguest 20, 2021</small>
+            <small class="text-muted">Auguest 20, 2024</small>
           </div>
           </div>
         </div>
-        <div class="mb-5 col-12 col-md-6 col-lg-4">
+        <div class="mb-5 col-12 col-md-6 col-lg-4 p-3">
         <div class="card position-relative" >
           <a href="#">
           <img class="card-img-top" src="./images/blog-pics/valuableMakers.jpg" height="200px" alt="Card image cap">
@@ -411,11 +411,11 @@
             </div> 
           </div>
           <div class="card-footer">
-            <small class="text-muted">November 2, 2021</small>
+            <small class="text-muted">November 2, 2024</small>
           </div>
           </div>
         </div>
-        <div class="mb-5 col-12 col-md-6 col-lg-4">
+        <div class="mb-5 col-12 col-md-6 col-lg-4 p-3">
         <div class="card position-relative" >
           <a href="#">
           <img class="card-img-top" src="./images/blog-pics/ford.jpg" height="200px" alt="Card image cap">
@@ -431,11 +431,11 @@
             </div> 
           </div>
           <div class="card-footer">
-            <small class="text-muted">July 5, 2021</small>
+            <small class="text-muted">July 5, 2024</small>
           </div>
           </div>
         </div>
-        <div class="mb-5 col-12 col-md-6 col-lg-4">
+        <div class="mb-5 col-12 col-md-6 col-lg-4 p-3">
         <div class="card position-relative" >
           <a href="#">
           <img class="card-img-top" src="./images/blog-pics/ladies.jpg" height="200px" alt="Card image cap">
@@ -451,11 +451,11 @@
             </div> 
           </div>
           <div class="card-footer">
-            <small class="text-muted">June 19, 2021</small>
+            <small class="text-muted">June 19, 2024</small>
           </div>
           </div>
         </div>
-        <div class="mb-5 col-12 col-md-6 col-lg-4">
+        <div class="mb-5 col-12 col-md-6 col-lg-4 p-3">
         <div class="card position-relative" >
           <a href="#">
           <img class="card-img-top" src="./images/blog-pics/camera.jpg" height="200px" alt="Card image cap">
@@ -471,11 +471,11 @@
             </div> 
           </div>
           <div class="card-footer">
-            <small class="text-muted">September 27, 2021</small>
+            <small class="text-muted">September 27, 2024</small>
           </div>
           </div>
         </div>
-        <div class="mb-5 col-12 col-md-6 col-lg-4">
+        <div class="mb-5 col-12 col-md-6 col-lg-4 p-3">
         <div class="card position-relative" >
           <a href="#">
           <img class="card-img-top" src="./images/blog-pics/sherlockCar.jpg" height="200px" alt="Card image cap">
@@ -491,11 +491,11 @@
             </div> 
           </div>
           <div class="card-footer">
-            <small class="text-muted">October 6, 2021</small>
+            <small class="text-muted">October 6, 2024</small>
           </div>
           </div>
         </div>
-        <div class="mb-5 col-12 col-md-6 col-lg-4">
+        <div class="mb-5 col-12 col-md-6 col-lg-4 p-3">
         <div class="card position-relative" >
           <a href="#">
           <img class="card-img-top" src="./images/blog-pics/tesla.jpg" height="200px" alt="Card image cap">
@@ -515,7 +515,7 @@
           </div>
           </div>
         </div>
-        <div class="mb-5 col-12 col-md-6 col-lg-4">
+        <div class="mb-5 col-12 col-md-6 col-lg-4 p-3">
         <div class="card position-relative" >
           <a href="#">
           <img class="card-img-top" src="./images/blog-pics/toyota.png" height="200px" alt="Card image cap">
@@ -531,7 +531,7 @@
             </div> 
           </div>
           <div class="card-footer">
-            <small class="text-muted">April 1, 2021</small>
+            <small class="text-muted">April 1, 2024</small>
           </div>
           </div>
         </div>
@@ -547,10 +547,10 @@
   <Footer id="footer">
     <div class="footer-top text-white py-5">
       <div class=" container">
-        <div class="row justify-content-between text-center text-md-left  ">
+        <div class="d-md-flex justify-content-between text-center text-md-start  ">
           <!-- FOOTER TOP -->
 
-          <section id="Resources" class="pb-5 pb-md-0col-xl-2 col-lg-2 col-md-2 ">
+          <section id="Resources" class="pb-5 pb-md-0 col-xl-2 col-lg-2 col-md-2 ">
             <h5 class="text-white pb-5">Resources</h5>
             <ul class="px-0 text-secondary">
               <li class="list-unstyled text-decoration-none mb-2"><a href="#">About PakDrives</a></li>
@@ -566,7 +566,7 @@
 
           </section>
 
-          <section id="ProvinceCars" class="pb-5 pb-md-0col-xl-3 col-lg-3 col-md-3 ">
+          <section id="ProvinceCars" class="pb-5 pb-md-0 col-xl-3 col-lg-3 col-md-3 ">
             <h5 class="text-white pb-5">Cars by Province</h5>
             <ul class="px-0 text-secondary">
               <li class="list-unstyled text-decoration-none mb-2"><a href="#">Cars in Punjab</a></li>
@@ -579,19 +579,19 @@
             </ul>
 
           </section>
-          <section id="Contact" class="pb-5 pb-md-0col-xl-3 col-lg-3 col-md-4 ">
+          <section id="Contact" class="pb-5 pb-md-0 col-xl-3 col-lg-3 col-md-4 ">
             <h5 class="text-white pb-5">Contact</h5>
             <ul class="px-0 text-secondary">
               <li class="list-unstyled text-decoration-none mb-2 mb-md-3 mb-lg-2"><a href="#"><span
-                    class="ContactIcons mr-2"><i class="fas fa-car footerIcon "></i></span>5 Milburn Ct, Endeavor Hills, Melbourne, Australia</a></li>
+                    class="ContactIcons me-2"><i class="fas fa-car footerIcon "></i></span>5 Milburn Ct, Endeavor Hills, Melbourne, Australia</a></li>
               <li class="list-unstyled text-decoration-none mb-2 mb-md-3 mb-lg-2"><a
-                  href="mailto:pakdrives@example.com"><span class="ContactIcons mr-2"><i
+                  href="mailto:pakdrives@example.com"><span class="ContactIcons me-2"><i
                       class="fas fa-envelope footerIcon"></i></span>pakdrives@example.com</a></li>
               <li class="list-unstyled text-decoration-none mb-2 mb-md-3 mb-lg-2"><a href="tel:+01123456789"><span
-                    class="ContactIcons mr-2"><i class=" fas fa-phone-alt footerIcon"></i></span>+01 1234 567 89</a>
+                    class="ContactIcons me-2"><i class=" fas fa-phone-alt footerIcon"></i></span>+01 1234 567 89</a>
               </li>
             </ul>
-            <form action="somefile.php" method="post" name="myForm" class="row ml-0 mt-md-4 mt-4 no-gutters">
+            <form action="somefile.php" method="post" name="myForm" class="d-flex ms-0 mt-md-4 mt-4 no-gutters">
               <div class="col-8 col-md-7">
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                   placeholder="Email" required>
@@ -602,19 +602,19 @@
 
           <section id="Follow" class="pb-5 pb-md-0 col-xl-3 col-lg-3 col-md-3 ">
             <h5 class="text-white pb-5 mb-0">Follow Us</h5>
-            <ul class="ml-0 px-0 row justify-content-center justify-content-md-start">
-              <li class="mr-3 mr-md-2 mr-lg-3   list-unstyled text-decoration-none"><a href="#"><span
+            <ul class="ms-0 px-0 d-flex justify-content-center justify-content-md-start">
+              <li class="me-3 me-md-2 me-lg-3   list-unstyled text-decoration-none"><a href="#"><span
                     class="footerSocialIcons"><i class="fab fa-facebook-f"></i></span></a></li>
-              <li class="mr-3 mr-md-2 mr-lg-3  list-unstyled text-decoration-none "><a href="#"><span
+              <li class="me-3 me-md-2 me-lg-3  list-unstyled text-decoration-none "><a href="#"><span
                     class="footerSocialIcons"><i class="fab fa-linkedin-in"></i></span></a></li>
-              <li class="mr-3 mr-md-2 mr-lg-3  list-unstyled text-decoration-none"><a href="#"><span
+              <li class="me-3 me-md-2 me-lg-3  list-unstyled text-decoration-none"><a href="#"><span
                     class="footerSocialIcons"><i class="fab fa-twitter"></i></span></a></li>
-              <li class="mr-3 mr-md-2 mr-lg-3  list-unstyled text-decoration-none"><a href="#"><span
+              <li class="me-3 me-md-2 me-lg-3  list-unstyled text-decoration-none"><a href="#"><span
                     class="footerSocialIcons"><i class="fab fa-google-plus-g"></i></span></a></li>
             </ul>
             <h5 class="position-relative mt-5 mt-md-4 pb-5 mb-0">Donwload App</h5>
-            <div class="row badges justify-content-center justify-content-md-between ml-0">
-              <a href="#" class="mb-md-3 mb-lg-0 mr-3 mr-md-0"><img src="./images/google-play-badge.png"
+            <div class="d-flex badges justify-content-center justify-content-md-between ms-0">
+              <a href="#" class="mb-md-3 mb-lg-0 me-3 me-md-0"><img src="./images/google-play-badge.png"
                   alt="google play store badge"></a>
               <a href="#"><img src="./images/app-store-Badge.png" alt="apple app store badge"></a>
             </div>
@@ -630,7 +630,7 @@
 
     <div id="bottom" class="footer-bottom py-3">
       <div class="container">
-        <div class="row justify-content-center">
+        <div class="d-flex justify-content-center">
 
           <p class="my-0">Copyright &#169; 2024-<span>Rahul Gianchandani</span>. All rights reserved. </p>
 
@@ -653,9 +653,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
   <!-- OWL CAROUSEL CDN SCRIPT LINK -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"

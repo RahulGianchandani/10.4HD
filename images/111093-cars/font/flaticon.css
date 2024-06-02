@@ -26,7 +26,7 @@
   font-family: Flaticon;
         font-size: 20px;
 font-style: normal;
-margin-left: 20px;
+margin-start: 20px;
 }
 
 .flaticon-beetle-car-front:before { content: "\f100"; }
@@ -34,7 +34,7 @@ margin-left: 20px;
 .flaticon-cabrio-car:before { content: "\f102"; }
 .flaticon-camaro-car-front:before { content: "\f103"; }
 .flaticon-car:before { content: "\f104"; }
-.flaticon-car-black-side-view-pointing-left:before { content: "\f105"; }
+.flaticon-car-black-side-view-pointing-start:before { content: "\f105"; }
 .flaticon-car-city-model:before { content: "\f106"; }
 .flaticon-car-front:before { content: "\f107"; }
 .flaticon-car-muscle-design:before { content: "\f108"; }
@@ -58,4 +58,4 @@ margin-left: 20px;
 .flaticon-supercar:before { content: "\f11a"; }
 .flaticon-tractor-front:before { content: "\f11b"; }
 .flaticon-truck-front:before { content: "\f11c"; }
-.flaticon-van-black-transport-side-view-pointing-to-left:before { content: "\f11d"; }
+.flaticon-van-black-transport-side-view-pointing-to-start:before { content: "\f11d"; }

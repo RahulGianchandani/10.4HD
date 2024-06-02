@@ -12,8 +12,8 @@
   <link rel="icon" href="./images/favIcon.ico.png" sizes="16x16" type="image/png"> 
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
   <script src='./js/script.js'></script>
 
@@ -36,8 +36,8 @@
   <!-- FIRST MINI NAV -->
   <div id="firstnav">
     <div class="container">
-      <div class="row align-items-center justify-content-center py-1">
-        <div class="col-12 col-sm-6 text-left">
+      <div class="d-flex align-items-center justify-content-center py-1">
+        <div class="col-12 col-sm-6 text-start">
           <ul class="d-flex align-items-center justify-content-sm-start justify-content-center my-0 px-0">
             <li class="px-2 px-lg-3 px-xl-3 "><a href="#"><span class="firstNavIcons"><i
                     class="fab fa-facebook"></i></span></a></li>
@@ -76,9 +76,9 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-sm-6 text-sm-right text-center my-1">
-          <a href="./register.html" class="mr-3"><span class="loginIcons mr-2"><i class="fas fa-user"></i></span>Register</a>
-          <a href="./login.html" class=""><span class="loginIcons mr-2"><i class="fas fa-arrow-right"></i></span>Login</a>
+        <div class="col-12 col-sm-6 text-sm-end text-center my-1">
+          <a href="./register.html" class="me-3"><span class="loginIcons me-2"><i class="fas fa-user"></i></span>Register</a>
+          <a href="./login.html" class=""><span class="loginIcons me-2"><i class="fas fa-arrow-right"></i></span>Login</a>
         </div>
       </div>
     </div>
@@ -101,26 +101,26 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 
           <ul id="Items" class="navbar-nav justify-content-between align-items-lg-center">
-            <li class="nav-item  mr-2">
+            <li class="nav-item  me-2">
               <a class="nav-link" href="./usedcars.html">Used Cars<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item mr-3">
+            <li class="nav-item me-3">
               <a class="nav-link" href="./newcars.html">New Cars</a>
             </li>
-            <li class="nav-item mr-3">
+            <li class="nav-item me-3">
               <a class="nav-link" href="./autostore.html">Auto Store</a>
             </li>
-            <li class="nav-item mr-3">
+            <li class="nav-item me-3">
               <a class="nav-link" href="./videos.html">Videos</a>
             </li>
-            <li class="nav-item mr-3">
+            <li class="nav-item me-3">
               <a class="nav-link" href="./forum.html">Forum</a>
             </li>
-            <li class="nav-item mr-3">
+            <li class="nav-item me-3">
               <a class="nav-link" href="./blog.html">Blog</a>
             </li>
-            <li class="nav-item mr-3">
-              <a class="nav-link" href="./advertise.html"><i class="fas fa-car mr-2"></i>Post an Ad</a>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="./advertise.html"><i class="fas fa-car me-2"></i>Post an Ad</a>
             </li>
           </ul>
         </div>
@@ -133,11 +133,11 @@
 
   <section id="Carnav">
     <div class="container h-100">
-      <div class="row flex-lg-column  align-items-center h-100  align-content-center justify-content-center">
+      <div class="d-flex flex-lg-column  align-items-center h-100  align-content-center justify-content-center">
         <h1 class="mb-3">Find The Best Cars Near By You</h1>
         <p class="mx-5 text-center">With thousands of cars, we have just the right one for you</p>
         <form id="dropdowns" action="somefile.php" method="post" name="myForm" 
-          class="row flex-sm-row flex-column mt-4 align-items-center justify-content-center  p-lg-4 p-3 rounded z-index-1000 ">
+          class="d-flex flex-sm-row flex-column mt-4 align-items-center justify-content-center  p-lg-4 p-3 rounded z-index-1000 ">
           <div class="dropdown text-center">
             <button class="btn btn-secondary dropdown-toggle py-2  w-100" type="button" id="dropdownMenuButton"
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -194,7 +194,7 @@
             </div>
           </div>
           <div id="searchBtn" class="text-center  mt-5 mt-sm-0 mb-0 ">
-            <button type="submit"><i class="fas fa-search mr-2 "></i>Search</button>
+            <button type="submit"><i class="fas fa-search me-2 "></i>Search</button>
           </div>
         </form>
       </div>
@@ -222,9 +222,9 @@
               <a href="#">
                 <h5 class="card-text mb-1">Suzukia Spacia 2015</h5>
               </a>
-              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary mr-1"></i><a
+              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary me-1"></i><a
                   href="#">Islamabad</a></span>
-              <span class="text-secondary"><i class="far fa-clock ml-2 ml-md-1 mr-1 text-secondary"></i>5
+              <span class="text-secondary"><i class="far fa-clock ms-2 ms-md-1 me-1 text-secondary"></i>5
                 hours ago</span>
             </div>
           </div>
@@ -239,9 +239,9 @@
               <a href="#">
                 <h5 class="card-text mb-1">Toyota Aqua 2015</h5>
               </a>
-              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary mr-1"></i><a
+              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary me-1"></i><a
                   href="#">Islamabad</a></span>
-              <span class="text-secondary"><i class="far fa-clock ml-2 ml-md-1 mr-1 text-secondary"></i>5
+              <span class="text-secondary"><i class="far fa-clock ms-2 ms-md-1 me-1 text-secondary"></i>5
                 hours ago</span>
             </div>
           </div>
@@ -256,9 +256,9 @@
               <a href="#">
                 <h5 class="card-text mb-1">Toyota Vitz 2016</h5>
               </a>
-              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary mr-1"></i><a
+              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary me-1"></i><a
                   href="#">Islamabad</a></span>
-              <span class="text-secondary"><i class="far fa-clock ml-2 ml-md-1 mr-1 text-secondary"></i>5
+              <span class="text-secondary"><i class="far fa-clock ms-2 ms-md-1 me-1 text-secondary"></i>5
                 hours ago</span>
             </div>
           </div>
@@ -273,9 +273,9 @@
               <a href="#">
                 <h5 class="card-text mb-1">KIA Sportage 2024</h5>
               </a>
-              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary mr-1"></i><a
+              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary me-1"></i><a
                   href="#">Islamabad</a></span>
-              <span class="text-secondary"><i class="far fa-clock ml-2 ml-md-1 mr-1 text-secondary"></i>5
+              <span class="text-secondary"><i class="far fa-clock ms-2 ms-md-1 me-1 text-secondary"></i>5
                 hours ago</span>
             </div>
           </div>
@@ -290,9 +290,9 @@
               <a href="#">
                 <h5 class="card-text mb-1">Suzukia Spacia 2015</h5>
               </a>
-              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary mr-1"></i><a
+              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary me-1"></i><a
                   href="#">Islamabad</a></span>
-              <span class="text-secondary"><i class="far fa-clock ml-2 ml-md-1 mr-1 text-secondary"></i>5
+              <span class="text-secondary"><i class="far fa-clock ms-2 ms-md-1 me-1 text-secondary"></i>5
                 hours ago</span>
             </div>
           </div>
@@ -307,9 +307,9 @@
               <a href="#">
                 <h5 class="card-text mb-1">Toyota Aqua 2015</h5>
               </a>
-              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary mr-1"></i><a
+              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary me-1"></i><a
                   href="#">Islamabad</a></span>
-              <span class="text-secondary"><i class="far fa-clock ml-2 ml-md-1 mr-1 text-secondary"></i>5
+              <span class="text-secondary"><i class="far fa-clock ms-2 ms-md-1 me-1 text-secondary"></i>5
                 hours ago</span>
             </div>
           </div>
@@ -324,9 +324,9 @@
               <a href="#">
                 <h5 class="card-text mb-1">Toyota Vitz 2016</h5>
               </a>
-              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary mr-1"></i><a
+              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary me-1"></i><a
                   href="#">Islamabad</a></span>
-              <span class="text-secondary"><i class="far fa-clock ml-2 ml-md-1 mr-1 text-secondary"></i>5
+              <span class="text-secondary"><i class="far fa-clock ms-2 ms-md-1 me-1 text-secondary"></i>5
                 hours ago</span>
             </div>
           </div>
@@ -341,9 +341,9 @@
               <a href="#">
                 <h5 class="card-text mb-1">KIA Sportage 2024</h5>
               </a>
-              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary mr-1"></i><a
+              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary me-1"></i><a
                   href="#">Islamabad</a></span>
-              <span class="text-secondary"><i class="far fa-clock ml-2 ml-md-1 mr-1 text-secondary"></i>5
+              <span class="text-secondary"><i class="far fa-clock ms-2 ms-md-1 me-1 text-secondary"></i>5
                 hours ago</span>
             </div>
           </div>
@@ -358,9 +358,9 @@
               <a href="#">
                 <h5 class="card-text mb-1">Suzukia Spacia 2015</h5>
               </a>
-              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary mr-1"></i><a
+              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary me-1"></i><a
                   href="#">Islamabad</a></span>
-              <span class="text-secondary"><i class="far fa-clock ml-2 ml-md-1 mr-1 text-secondary"></i>5
+              <span class="text-secondary"><i class="far fa-clock ms-2 ms-md-1 me-1 text-secondary"></i>5
                 hours ago</span>
             </div>
           </div>
@@ -375,9 +375,9 @@
               <a href="#">
                 <h5 class="card-text mb-1">Toyota Aqua 2015</h5>
               </a>
-              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary mr-1"></i><a
+              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary me-1"></i><a
                   href="#">Islamabad</a></span>
-              <span class="text-secondary"><i class="far fa-clock ml-2 ml-md-1 mr-1 text-secondary"></i>5
+              <span class="text-secondary"><i class="far fa-clock ms-2 ms-md-1 me-1 text-secondary"></i>5
                 hours ago</span>
             </div>
           </div>
@@ -392,9 +392,9 @@
               <a href="#">
                 <h5 class="card-text mb-1">Toyota Vitz 2016</h5>
               </a>
-              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary mr-1"></i><a
+              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary me-1"></i><a
                   href="#">Islamabad</a></span>
-              <span class="text-secondary"><i class="far fa-clock ml-2 ml-md-1 mr-1 text-secondary"></i>5
+              <span class="text-secondary"><i class="far fa-clock ms-2 ms-md-1 me-1 text-secondary"></i>5
                 hours ago</span>
             </div>
           </div>
@@ -409,9 +409,9 @@
               <a href="#">
                 <h5 class="card-text mb-1">KIA Sportage 2024</h5>
               </a>
-              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary mr-1"></i><a
+              <span class="text-secondary"><i class="fas fa-map-marker-alt text-secondary me-1"></i><a
                   href="#">Islamabad</a></span>
-              <span class="text-secondary"><i class="far fa-clock ml-2 ml-md-1 mr-1 text-secondary"></i>5
+              <span class="text-secondary"><i class="far fa-clock ms-2 ms-md-1 me-1 text-secondary"></i>5
                 hours ago</span>
             </div>
           </div>
@@ -432,8 +432,8 @@
 										<span class="position-absolute stars py-1 px-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
 									<div class="card-body">
 										<h5 class="card-text mb-0">Suzukia Spacia 2015</h5>
-										<span><i class="fas fa-map-marker-alt text-secondary mr-1"></i>Islamabad</span>
-										<span><i class="far fa-clock ml-2 mr-1 text-secondary"></i>5 hours ago</span>
+										<span><i class="fas fa-map-marker-alt text-secondary me-1"></i>Islamabad</span>
+										<span><i class="far fa-clock ms-2 me-1 text-secondary"></i>5 hours ago</span>
 									</div>
 								</div>
 							</div>
@@ -446,8 +446,8 @@
 										<span class="position-absolute stars py-1 px-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
 									<div class="card-body">
 										<h5 class="card-text mb-0">Suzukia Spacia 2015</h5>
-										<span><i class="fas fa-map-marker-alt text-secondary mr-1"></i>Islamabad</span>
-										<span><i class="far fa-clock ml-2 mr-1 text-secondary"></i>5 hours ago</span>
+										<span><i class="fas fa-map-marker-alt text-secondary me-1"></i>Islamabad</span>
+										<span><i class="far fa-clock ms-2 me-1 text-secondary"></i>5 hours ago</span>
 									</div>
 								</div>
 							</div>
@@ -460,8 +460,8 @@
 										<span class="position-absolute stars py-1 px-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
 									<div class="card-body">
 										<h5 class="card-text mb-0">Suzukia Spacia 2015</h5>
-										<span><i class="fas fa-map-marker-alt text-secondary mr-1"></i>Islamabad</span>
-										<span><i class="far fa-clock ml-2 mr-1 text-secondary"></i>5 hours ago</span>
+										<span><i class="fas fa-map-marker-alt text-secondary me-1"></i>Islamabad</span>
+										<span><i class="far fa-clock ms-2 me-1 text-secondary"></i>5 hours ago</span>
 									</div>
 								</div>	
 							</div>
@@ -474,8 +474,8 @@
 										<span class="position-absolute stars py-1 px-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
 									<div class="card-body">
 										<h5 class="card-text mb-0">Suzukia Spacia 2015</h5>
-										<span><i class="fas fa-map-marker-alt text-secondary mr-1"></i>Islamabad</span>
-										<span><i class="far fa-clock ml-2 mr-1 text-secondary"></i>5 hours ago</span>
+										<span><i class="fas fa-map-marker-alt text-secondary me-1"></i>Islamabad</span>
+										<span><i class="far fa-clock ms-2 me-1 text-secondary"></i>5 hours ago</span>
 									</div>
 								</div>
 							</div>
@@ -492,8 +492,8 @@
 										<span class="position-absolute stars py-1 px-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
 									<div class="card-body">
 										<h5 class="card-text mb-0">Suzukia Spacia 2015</h5>
-										<span><i class="fas fa-map-marker-alt text-secondary mr-1"></i>Islamabad</span>
-										<span><i class="far fa-clock ml-2 mr-1 text-secondary"></i>5 hours ago</span>
+										<span><i class="fas fa-map-marker-alt text-secondary me-1"></i>Islamabad</span>
+										<span><i class="far fa-clock ms-2 me-1 text-secondary"></i>5 hours ago</span>
 									</div>
 								</div>
 							</div>
@@ -506,8 +506,8 @@
 										<span class="position-absolute stars py-1 px-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
 									<div class="card-body">
 										<h5 class="card-text mb-0">Suzukia Spacia 2015</h5>
-										<span><i class="fas fa-map-marker-alt text-secondary mr-1"></i>Islamabad</span>
-										<span><i class="far fa-clock ml-2 mr-1 text-secondary"></i>5 hours ago</span>
+										<span><i class="fas fa-map-marker-alt text-secondary me-1"></i>Islamabad</span>
+										<span><i class="far fa-clock ms-2 me-1 text-secondary"></i>5 hours ago</span>
 									</div>
 								</div>
 							</div>
@@ -520,8 +520,8 @@
 										<span class="position-absolute stars py-1 px-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
 									<div class="card-body">
 										<h5 class="card-text mb-0">Suzukia Spacia 2015</h5>
-										<span><i class="fas fa-map-marker-alt text-secondary mr-1"></i>Islamabad</span>
-										<span><i class="far fa-clock ml-2 mr-1 text-secondary"></i>5 hours ago</span>
+										<span><i class="fas fa-map-marker-alt text-secondary me-1"></i>Islamabad</span>
+										<span><i class="far fa-clock ms-2 me-1 text-secondary"></i>5 hours ago</span>
 									</div>
 								</div>	
 							</div>
@@ -534,8 +534,8 @@
 										<span class="position-absolute stars py-1 px-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
 									<div class="card-body">
 										<h5 class="card-text mb-0">Suzukia Spacia 2015</h5>
-										<span><i class="fas fa-map-marker-alt text-secondary mr-1"></i>Islamabad</span>
-										<span><i class="far fa-clock ml-2 mr-1 text-secondary"></i>5 hours ago</span>
+										<span><i class="fas fa-map-marker-alt text-secondary me-1"></i>Islamabad</span>
+										<span><i class="far fa-clock ms-2 me-1 text-secondary"></i>5 hours ago</span>
 									</div>
 								</div>
 							</div>
@@ -552,8 +552,8 @@
 										<span class="position-absolute stars py-1 px-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
 									<div class="card-body">
 										<h5 class="card-text mb-0">Suzukia Spacia 2015</h5>
-										<span><i class="fas fa-map-marker-alt text-secondary mr-1"></i>Islamabad</span>
-										<span><i class="far fa-clock ml-2 mr-1 text-secondary"></i>5 hours ago</span>
+										<span><i class="fas fa-map-marker-alt text-secondary me-1"></i>Islamabad</span>
+										<span><i class="far fa-clock ms-2 me-1 text-secondary"></i>5 hours ago</span>
 									</div>
 								</div>
 							</div>
@@ -566,8 +566,8 @@
 										<span class="position-absolute stars py-1 px-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
 									<div class="card-body">
 										<h5 class="card-text mb-0">Suzukia Spacia 2015</h5>
-										<span><i class="fas fa-map-marker-alt text-secondary mr-1"></i>Islamabad</span>
-										<span><i class="far fa-clock ml-2 mr-1 text-secondary"></i>5 hours ago</span>
+										<span><i class="fas fa-map-marker-alt text-secondary me-1"></i>Islamabad</span>
+										<span><i class="far fa-clock ms-2 me-1 text-secondary"></i>5 hours ago</span>
 									</div>
 								</div>
 							</div>
@@ -580,8 +580,8 @@
 										<span class="position-absolute stars py-1 px-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
 									<div class="card-body">
 										<h5 class="card-text mb-0">Suzukia Spacia 2015</h5>
-										<span><i class="fas fa-map-marker-alt text-secondary mr-1"></i>Islamabad</span>
-										<span><i class="far fa-clock ml-2 mr-1 text-secondary"></i>5 hours ago</span>
+										<span><i class="fas fa-map-marker-alt text-secondary me-1"></i>Islamabad</span>
+										<span><i class="far fa-clock ms-2 me-1 text-secondary"></i>5 hours ago</span>
 									</div>
 								</div>	
 							</div>
@@ -594,8 +594,8 @@
 										<span class="position-absolute stars py-1 px-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
 									<div class="card-body">
 										<h5 class="card-text mb-0">Suzukia Spacia 2015</h5>
-										<span><i class="fas fa-map-marker-alt text-secondary mr-1"></i>Islamabad</span>
-										<span><i class="far fa-clock ml-2 mr-1 text-secondary"></i>5 hours ago</span>
+										<span><i class="fas fa-map-marker-alt text-secondary me-1"></i>Islamabad</span>
+										<span><i class="far fa-clock ms-2 me-1 text-secondary"></i>5 hours ago</span>
 									</div>
 								</div>
 								</div>
@@ -612,8 +612,8 @@
 										<span class="position-absolute stars py-1 px-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
 									<div class="card-body">
 										<h5 class="card-text mb-0">Suzukia Spacia 2015</h5>
-										<span><i class="fas fa-map-marker-alt text-secondary mr-1"></i>Islamabad</span>
-										<span><i class="far fa-clock ml-2 mr-1 text-secondary"></i>5 hours ago</span>
+										<span><i class="fas fa-map-marker-alt text-secondary me-1"></i>Islamabad</span>
+										<span><i class="far fa-clock ms-2 me-1 text-secondary"></i>5 hours ago</span>
 									</div>
 								</div>
 							</div>
@@ -626,8 +626,8 @@
 										<span class="position-absolute stars py-1 px-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
 									<div class="card-body">
 										<h5 class="card-text mb-0">Suzukia Spacia 2015</h5>
-										<span><i class="fas fa-map-marker-alt text-secondary mr-1"></i>Islamabad</span>
-										<span><i class="far fa-clock ml-2 mr-1 text-secondary"></i>5 hours ago</span>
+										<span><i class="fas fa-map-marker-alt text-secondary me-1"></i>Islamabad</span>
+										<span><i class="far fa-clock ms-2 me-1 text-secondary"></i>5 hours ago</span>
 									</div>
 								</div>
 							</div>
@@ -640,8 +640,8 @@
 										<span class="position-absolute stars py-1 px-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
 									<div class="card-body">
 										<h5 class="card-text mb-0">Suzukia Spacia 2015</h5>
-										<span><i class="fas fa-map-marker-alt text-secondary mr-1"></i>Islamabad</span>
-										<span><i class="far fa-clock ml-2 mr-1 text-secondary"></i>5 hours ago</span>
+										<span><i class="fas fa-map-marker-alt text-secondary me-1"></i>Islamabad</span>
+										<span><i class="far fa-clock ms-2 me-1 text-secondary"></i>5 hours ago</span>
 									</div>
 								</div>	
 							</div>
@@ -654,8 +654,8 @@
 										<span class="position-absolute stars py-1 px-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
 									<div class="card-body">
 										<h5 class="card-text mb-0">Suzukia Spacia 2015</h5>
-										<span><i class="fas fa-map-marker-alt text-secondary mr-1"></i>Islamabad</span>
-										<span><i class="far fa-clock ml-2 mr-1 text-secondary"></i>5 hours ago</span>
+										<span><i class="fas fa-map-marker-alt text-secondary me-1"></i>Islamabad</span>
+										<span><i class="far fa-clock ms-2 me-1 text-secondary"></i>5 hours ago</span>
 									</div>
 								</div>
 							</div>
@@ -680,23 +680,23 @@
 
     <div id="advertisee">
       <div class="container h-100">
-        <div class="row  text-white align-items-center  h-100 py-4 py-sm-5 py-md-0">
+        <div class="d-flex  text-white align-items-center  h-100 py-4 py-sm-5 py-md-0">
           <div class="col-md-6 col-12 pb-5 pb-md-0">
-            <h1 class="col-md-8 px-0 mb-3 text-center text-md-left"> Post Your Ad on Pakistan Drives</h1>
+            <h1 class="col-md-8 px-0 mb-3 text-center text-md-start"> Post Your Ad on Pakistan Drives</h1>
             <ul class="mx-0 px-0 mt-4">
-              <li class=" px-0 py-1 ml-0"><i class="fas fa-check-circle mr-3 "></i>Post your Ad for Free
+              <li class=" px-0 py-1 ms-0"><i class="fas fa-check-circle me-3 "></i>Post your Ad for Free
                 in 3
                 Easy Steps</li>
-              <li class=" px-0 py-1 ml-0"><i class="fas fa-check-circle mr-3 "></i>Get Genuine offers from
+              <li class=" px-0 py-1 ms-0"><i class="fas fa-check-circle me-3 "></i>Get Genuine offers from
                 Verified Buyers</li>
-              <li class=" px-0 py-1 ml-0"><i class="fas fa-check-circle mr-3 "></i>Sell your car Fast at
+              <li class=" px-0 py-1 ms-0"><i class="fas fa-check-circle me-3 "></i>Sell your car Fast at
                 the
                 Best Price</li>
-              <li class=" px-0  mt-5 mt-sm-4 ml-0 text-center text-md-left"><a class="#" href="#"><i
-                    class="fas fa-car mr-2"></i>Post Your Ad</a></li>
+              <li class=" px-0  mt-5 mt-sm-4 ms-0 text-center text-md-start"><a class="#" href="#"><i
+                    class="fas fa-car me-2"></i>Post Your Ad</a></li>
             </ul>
           </div>
-          <div class="col-md-6 col-12 px-0 d-block text-right h-100 pt-5 pt-md-0">
+          <div class="col-md-6 col-12 px-0 d-block text-end h-100 pt-5 pt-md-0">
             <img src="./images/Worker.png" height="439px" width="100%" alt="Working on station">
           </div>
         </div>
@@ -712,20 +712,20 @@
           <div class="owl-carousel owl-theme px-3 px-sm-0">
             <div class="card  rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/Suzukia-specia.png" alt="Suzukia-specia Car"></a></a>
-              <span class="position-absolute pkr text-white py-1  pl-3 pr-4">Sale</span>
+              <span class="position-absolute pkr text-white py-1  ps-3 pe-4">Sale</span>
               <span class="position-absolute used text-white py-1 px-2 rounded">Used</span>
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">Suzukia Spacia 2015</h5>
                 </a>
-                <div class="row justify-content-between mx-0 mb-3 mb-lg-3 mb-xl-4 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a
+                <div class="d-flex justify-content-between mx-0 mb-3 mb-lg-3 mb-xl-4 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a
                       href="#">Islamabad</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 1,390,000</span>
                 </div>
-                <div class="row justify-content-between mx-0">
+                <div class="d-flex justify-content-between mx-0">
                   <span class="ratings text-white p-1  px-1 rounded">4.0/5</span>
-                  <span class="stars py-1 pl-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  <span class="stars py-1 ps-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                       class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span
                       class="reviews"> (5 Reviews) </span> </span>
                 </div>
@@ -733,20 +733,20 @@
             </div>
             <div class="card  rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/pink-aqua.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr red text-white py-1  pl-3 pr-4">Featured</span>
+              <span class="position-absolute pkr red text-white py-1  ps-3 pe-4">Featured</span>
               <span class="position-absolute new text-white py-1 px-2 rounded">New</span>
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">Toyota Aqua 2015</h5>
                 </a>
-                <div class="row justify-content-between mx-0 mb-3 mb-lg-3 mb-xl-4 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a
+                <div class="d-flex justify-content-between mx-0 mb-3 mb-lg-3 mb-xl-4 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a
                       href="#">Islamabad</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 2,650,500</span>
                 </div>
-                <div class="row justify-content-between mx-0">
+                <div class="d-flex justify-content-between mx-0">
                   <span class="ratings text-white p-1  px-1 rounded">4.0/5</span>
-                  <span class="stars py-1 pl-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  <span class="stars py-1 ps-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                       class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span
                       class="reviews"> (5 Reviews) </span> </span>
                 </div>
@@ -754,20 +754,20 @@
             </div>
             <div class="card  rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/dummy-car.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr red text-white py-1  pl-3 pr-4">Sale</span>
+              <span class="position-absolute pkr red text-white py-1  ps-3 pe-4">Sale</span>
               <span class="position-absolute used text-white py-1 px-2 rounded">Used</span>
 
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">Toyota Vitz 2016</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a href="#">Lahore</a></span>
+                <div class="d-flex justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a href="#">Lahore</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 2,275,000</span>
                 </div>
-                <div class="row justify-content-between mx-0">
+                <div class="d-flex justify-content-between mx-0">
                   <span class="ratings text-white p-1  px-1 rounded">4.0/5</span>
-                  <span class="stars py-1 pl-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  <span class="stars py-1 ps-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                       class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span
                       class="reviews"> (5 Reviews) </span> </span>
                 </div>
@@ -775,21 +775,21 @@
             </div>
             <div class="card  rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/Kia-Sportage.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr red text-white py-1  pl-3 pr-4">Sale</span>
+              <span class="position-absolute pkr red text-white py-1  ps-3 pe-4">Sale</span>
               <span class="position-absolute used text-white py-1 px-2 rounded">Used</span>
 
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">KIA Sportage 2024</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a
+                <div class="d-flex justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a
                       href="#">Karachi</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 5,399,000</span>
                 </div>
-                <div class="row justify-content-between mx-0">
+                <div class="d-flex justify-content-between mx-0">
                   <span class="ratings text-white p-1  px-1 rounded">4.0/5</span>
-                  <span class="stars py-1 pl-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  <span class="stars py-1 ps-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                       class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span
                       class="reviews"> (5 Reviews) </span> </span>
                 </div>
@@ -797,21 +797,21 @@
             </div>
             <div class="card  rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/Suzukia-specia.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr text-white py-1  pl-3 pr-4">Sale</span>
+              <span class="position-absolute pkr text-white py-1  ps-3 pe-4">Sale</span>
               <span class="position-absolute used text-white py-1 px-2 rounded">Used</span>
 
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">Suzukia Spacia 2015</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a
+                <div class="d-flex justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a
                       href="#">Islamabad</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 1,390,000</span>
                 </div>
-                <div class="row justify-content-between mx-0">
+                <div class="d-flex justify-content-between mx-0">
                   <span class="ratings text-white p-1  px-1 rounded">4.0/5</span>
-                  <span class="stars py-1 pl-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  <span class="stars py-1 ps-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                       class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span
                       class="reviews"> (5 Reviews) </span> </span>
                 </div>
@@ -819,21 +819,21 @@
             </div>
             <div class="card  rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/pink-aqua.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr red text-white py-1  pl-3 pr-4">Featured</span>
+              <span class="position-absolute pkr red text-white py-1  ps-3 pe-4">Featured</span>
               <span class="position-absolute new text-white py-1 px-2 rounded">New</span>
 
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">Toyota Aqua 2015</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a
+                <div class="d-flex justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a
                       href="#">Islamabad</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 2,650,500</span>
                 </div>
-                <div class="row justify-content-between mx-0">
+                <div class="d-flex justify-content-between mx-0">
                   <span class="ratings text-white p-1  px-1 rounded">4.0/5</span>
-                  <span class="stars py-1 pl-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  <span class="stars py-1 ps-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                       class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span
                       class="reviews"> (5 Reviews) </span> </span>
                 </div>
@@ -841,20 +841,20 @@
             </div>
             <div class="card  rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/dummy-car.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr red text-white py-1  pl-3 pr-4">Sale</span>
+              <span class="position-absolute pkr red text-white py-1  ps-3 pe-4">Sale</span>
               <span class="position-absolute used text-white py-1 px-2 rounded">Used</span>
 
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">Toyota Vitz 2016</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a href="#">Lahore</a></span>
+                <div class="d-flex justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a href="#">Lahore</a></span>
                   <span class="featuredPKR d-inline-block ">2,275,000</span>
                 </div>
-                <div class="row justify-content-between mx-0">
+                <div class="d-flex justify-content-between mx-0">
                   <span class="ratings text-white p-1  px-1 rounded">4.0/5</span>
-                  <span class="stars py-1 pl-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  <span class="stars py-1 ps-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                       class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span
                       class="reviews"> (5 Reviews) </span> </span>
                 </div>
@@ -862,21 +862,21 @@
             </div>
             <div class="card  rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/Kia-Sportage.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr red text-white py-1  pl-3 pr-4">Sale</span>
+              <span class="position-absolute pkr red text-white py-1  ps-3 pe-4">Sale</span>
               <span class="position-absolute used text-white py-1 px-2 rounded">Used</span>
 
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">KIA Sportage 2024</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a
+                <div class="d-flex justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a
                       href="#">Karachi</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 5,399,000</span>
                 </div>
-                <div class="row justify-content-between mx-0">
+                <div class="d-flex justify-content-between mx-0">
                   <span class="ratings text-white p-1  px-1 rounded">4.0/5</span>
-                  <span class="stars py-1 pl-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  <span class="stars py-1 ps-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                       class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span
                       class="reviews"> (5 Reviews) </span> </span>
                 </div>
@@ -884,21 +884,21 @@
             </div>
             <div class="card  rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/Suzukia-specia.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr text-white py-1  pl-3 pr-4">Sale</span>
+              <span class="position-absolute pkr text-white py-1  ps-3 pe-4">Sale</span>
               <span class="position-absolute used text-white py-1 px-2 rounded">Used</span>
 
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">Suzukia Spacia 2015</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a
+                <div class="d-flex justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a
                       href="#">Islamabad</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 1,390,000</span>
                 </div>
-                <div class="row justify-content-between mx-0">
+                <div class="d-flex justify-content-between mx-0">
                   <span class="ratings text-white p-1  px-1 rounded">4.0/5</span>
-                  <span class="stars py-1 pl-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  <span class="stars py-1 ps-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                       class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span
                       class="reviews"> (5 Reviews) </span> </span>
                 </div>
@@ -906,21 +906,21 @@
             </div>
             <div class="card  rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/pink-aqua.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr red text-white py-1  pl-3 pr-4">Featured</span>
+              <span class="position-absolute pkr red text-white py-1  ps-3 pe-4">Featured</span>
               <span class="position-absolute new text-white py-1 px-2 rounded">New</span>
 
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">Toyota Aqua 2015</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a
+                <div class="d-flex justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a
                       href="#">Islamabad</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 2,650,500</span>
                 </div>
-                <div class="row justify-content-between mx-0">
+                <div class="d-flex justify-content-between mx-0">
                   <span class="ratings text-white p-1  px-1 rounded">4.0/5</span>
-                  <span class="stars py-1 pl-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  <span class="stars py-1 ps-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                       class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span
                       class="reviews"> (5 Reviews) </span> </span>
                 </div>
@@ -928,20 +928,20 @@
             </div>
             <div class="card  rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/dummy-car.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr red text-white py-1  pl-3 pr-4">Sale</span>
+              <span class="position-absolute pkr red text-white py-1  ps-3 pe-4">Sale</span>
               <span class="position-absolute used text-white py-1 px-2 rounded">Used</span>
 
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">Toyota Vitz 2016</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a href="#">Lahore</a></span>
+                <div class="d-flex justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a href="#">Lahore</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 2,275,000</span>
                 </div>
-                <div class="row justify-content-between mx-0">
+                <div class="d-flex justify-content-between mx-0">
                   <span class="ratings text-white p-1  px-1 rounded">4.0/5</span>
-                  <span class="stars py-1 pl-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  <span class="stars py-1 ps-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                       class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span
                       class="reviews"> (5 Reviews) </span> </span>
                 </div>
@@ -949,21 +949,21 @@
             </div>
             <div class="card  rounded-0 position-relative " style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/Kia-Sportage.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr red text-white py-1  pl-3 pr-4">Sale</span>
+              <span class="position-absolute pkr red text-white py-1  ps-3 pe-4">Sale</span>
               <span class="position-absolute used text-white py-1 px-2 rounded">Used</span>
 
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">KIA Sportage 2024</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a
+                <div class="d-flex justify-content-between mx-0  mb-3 mb-lg-3 mb-xl-4 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a
                       href="#">Karachi</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 5,399,000</span>
                 </div>
-                <div class="row justify-content-between mx-0">
+                <div class="d-flex justify-content-between mx-0">
                   <span class="ratings text-white p-1  px-1 rounded">4.0/5</span>
-                  <span class="stars py-1 pl-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  <span class="stars py-1 ps-2 rounded"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                       class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span
                       class="reviews"> (5 Reviews) </span> </span>
                 </div>
@@ -986,14 +986,14 @@
           <div class="owl-carousel owl-theme px-3 px-sm-0">
             <div class="card rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/Suzukia-specia.png" alt="Suzukia-specia Car"></a></a>
-              <span class="position-absolute pkr text-white py-1  pl-3 pr-4">Sale</span>
+              <span class="position-absolute pkr text-white py-1  ps-3 pe-4">Sale</span>
               <span class="position-absolute used text-white py-1 px-2 rounded">Used</span>
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">Suzukia Spacia 2015</h5>
                 </a>
-                <div class="row justify-content-between mx-0 mb-2 mb-lg-2 mb-xl-2 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a
+                <div class="d-flex justify-content-between mx-0 mb-2 mb-lg-2 mb-xl-2 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a
                       href="#">Islamabad</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 1,390,000</span>
                 </div>
@@ -1001,14 +1001,14 @@
             </div>
             <div class="card rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/pink-aqua.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr red text-white py-1  pl-3 pr-4">Featured</span>
+              <span class="position-absolute pkr red text-white py-1  ps-3 pe-4">Featured</span>
               <span class="position-absolute new text-white py-1 px-2 rounded">New</span>
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">Toyota Aqua 2015</h5>
                 </a>
-                <div class="row justify-content-between mx-0 mb-2 mb-lg-2 mb-xl-2 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a
+                <div class="d-flex justify-content-between mx-0 mb-2 mb-lg-2 mb-xl-2 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a
                       href="#">Islamabad</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 2,650,500</span>
                 </div>
@@ -1016,28 +1016,28 @@
             </div>
             <div class="card rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/dummy-car.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr red text-white py-1  pl-3 pr-4">Sale</span>
+              <span class="position-absolute pkr red text-white py-1  ps-3 pe-4">Sale</span>
               <span class="position-absolute used text-white py-1 px-2 rounded">Used</span>
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">Toyota Vitz 2016</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a href="#">Lahore</a></span>
+                <div class="d-flex justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a href="#">Lahore</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 2,275,000</span>
                 </div>
               </div>
             </div>
             <div class="card rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/Kia-Sportage.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr red text-white py-1  pl-3 pr-4">Sale</span>
+              <span class="position-absolute pkr red text-white py-1  ps-3 pe-4">Sale</span>
               <span class="position-absolute used text-white py-1 px-2 rounded">Used</span>
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">KIA Sportage 2024</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a
+                <div class="d-flex justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a
                       href="#">Karachi</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 5,399,000</span>
                 </div>
@@ -1045,14 +1045,14 @@
             </div>
             <div class="card rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/Suzukia-specia.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr text-white py-1  pl-3 pr-4">Sale</span>
+              <span class="position-absolute pkr text-white py-1  ps-3 pe-4">Sale</span>
               <span class="position-absolute used text-white py-1 px-2 rounded">Used</span>
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">Suzukia Spacia 2015</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a
+                <div class="d-flex justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a
                       href="#">Islamabad</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 1,390,000</span>
                 </div>
@@ -1060,14 +1060,14 @@
             </div>
             <div class="card rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/pink-aqua.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr red text-white py-1  pl-3 pr-4">Featured</span>
+              <span class="position-absolute pkr red text-white py-1  ps-3 pe-4">Featured</span>
               <span class="position-absolute new text-white py-1 px-2 rounded">New</span>
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">Toyota Aqua 2015</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a
+                <div class="d-flex justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a
                       href="#">Islamabad</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 2,650,500</span>
                 </div>
@@ -1075,28 +1075,28 @@
             </div>
             <div class="card rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/dummy-car.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr red text-white py-1  pl-3 pr-4">Sale</span>
+              <span class="position-absolute pkr red text-white py-1  ps-3 pe-4">Sale</span>
               <span class="position-absolute used text-white py-1 px-2 rounded">Used</span>
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">Toyota Vitz 2016</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a href="#">Lahore</a></span>
+                <div class="d-flex justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a href="#">Lahore</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 2,275,000</span>
                 </div>
               </div>
             </div>
             <div class="card rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/Kia-Sportage.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr red text-white py-1  pl-3 pr-4">Sale</span>
+              <span class="position-absolute pkr red text-white py-1  ps-3 pe-4">Sale</span>
               <span class="position-absolute used text-white py-1 px-2 rounded">Used</span>
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">KIA Sportage 2024</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a
+                <div class="d-flex justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a
                       href="#">Karachi</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 5,399,000</span>
                 </div>
@@ -1104,14 +1104,14 @@
             </div>
             <div class="card rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/Suzukia-specia.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr text-white py-1  pl-3 pr-4">Sale</span>
+              <span class="position-absolute pkr text-white py-1  ps-3 pe-4">Sale</span>
               <span class="position-absolute used text-white py-1 px-2 rounded">Used</span>
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">Suzukia Spacia 2015</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a
+                <div class="d-flex justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a
                       href="#">Islamabad</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 1,390,000</span>
                 </div>
@@ -1119,14 +1119,14 @@
             </div>
             <div class="card rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/pink-aqua.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr red text-white py-1  pl-3 pr-4">Featured</span>
+              <span class="position-absolute pkr red text-white py-1  ps-3 pe-4">Featured</span>
               <span class="position-absolute new text-white py-1 px-2 rounded">New</span>
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">Toyota Aqua 2015</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a
+                <div class="d-flex justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a
                       href="#">Islamabad</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 2,650,500</span>
                 </div>
@@ -1134,30 +1134,30 @@
             </div>
             <div class="card rounded-0 position-relative" style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/dummy-car.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr red text-white py-1  pl-3 pr-4">Sale</span>
+              <span class="position-absolute pkr red text-white py-1  ps-3 pe-4">Sale</span>
               <span class="position-absolute used text-white py-1 px-2 rounded">Used</span>
 
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">Toyota Vitz 2016</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a href="#">Lahore</a></span>
+                <div class="d-flex justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a href="#">Lahore</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 2,275,000</span>
                 </div>
               </div>
             </div>
             <div class="card rounded-0 position-relative " style="width: 100%">
               <a href="#"><img class="card-img-top" src="./images/Kia-Sportage.png" alt="Suzukia-specia Car"></a>
-              <span class="position-absolute pkr red text-white py-1  pl-3 pr-4">Sale</span>
+              <span class="position-absolute pkr red text-white py-1  ps-3 pe-4">Sale</span>
               <span class="position-absolute used text-white py-1 px-2 rounded">Used</span>
 
               <div class="card-body">
                 <a href="#">
                   <h5 class="card-text mb-1">KIA Sportage 2024</h5>
                 </a>
-                <div class="row justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
-                  <span class="text-secondary"><i class="fas fa-map-marker-alt mr-2  "></i><a
+                <div class="d-flex justify-content-between mx-0  mb-2 mb-lg-2 mb-xl-2 mt-2">
+                  <span class="text-secondary"><i class="fas fa-map-marker-alt me-2  "></i><a
                       href="#">Karachi</a></span>
                   <span class="featuredPKR d-inline-block ">PKR 5,399,000</span>
                 </div>
@@ -1175,7 +1175,7 @@
   <section id="Cities" class="py-5">
     <div class="container">
       <h1 class="text-center position-relative mb-5">Used Cars In Top Cities</h1>
-      <div class="row align-items-center justify-content-between flex-sm-row flex-column py-4">
+      <div class="d-flex align-items-center justify-content-between flex-sm-row flex-column py-4">
         <a href="#" class="text-secondary">
           <div class="border bg-white py-2 my-3">
             <figure class="my-1 mx-5 px-5 mx-sm-4 px-sm-4 mx-lg-3 px-lg-2  mx-xl-4  px-xl-3 ">
@@ -1236,7 +1236,7 @@
   <section id="CarCompare" class="py-5">
     <div class="container">
       <h1 class="text-center position-relative mb-5">Car Comparisions</h1>
-      <div class="row py-5 justify-content-between flex-column flex-sm-row ">
+      <div class="d-flex py-5 justify-content-between flex-column flex-sm-row ">
         <div class="position-relative col-12 col-sm-6 col-lg-4  my-4">
           <i class="fa fa-exchange position-absolute text-white" aria-hidden="true"></i>
           <table class="mx-auto">
@@ -1247,14 +1247,14 @@
               </tr>
               <tr>
                 <!-- <td>Toyota Avanza</td> -->
-                <th class="border-bottom-0 border-right-0 py-0 pt-3 pl-3 pl-sm-2 pl-md-3"><a href="#">Toyota Avanza</a>
+                <th class="border-bottom-0 border-right-0 py-0 pt-3 ps-3 ps-sm-2 ps-md-3"><a href="#">Toyota Avanza</a>
                 </th>
                 <!-- <td>Faw Sirius</td> -->
-                <th class="border-bottom-0 border-left-0 py-0 pt-3 pl-3 pl-sm-2 pl-md-3"><a href="#">Sirius</a></th>
+                <th class="border-bottom-0 border-start-0 py-0 pt-3 ps-3 ps-sm-2 ps-md-3"><a href="#">Sirius</a></th>
               </tr>
               <tr>
-                <td class="text-secondary costs pt-0 pb-3 pl-3 pl-sm-2 pl-md-3">PKR 4,326,000</td>
-                <td class="text-secondary costs pt-0 pb-3 pl-3 pl-sm-2 pl-md-3">PKR 1,885,000</td>
+                <td class="text-secondary costs pt-0 pb-3 ps-3 ps-sm-2 ps-md-3">PKR 4,326,000</td>
+                <td class="text-secondary costs pt-0 pb-3 ps-3 ps-sm-2 ps-md-3">PKR 1,885,000</td>
               </tr>
               <tr>
                 <td colspan="2" class="text-center border-top-0 VS text-white pb-4"><a href="#"
@@ -1273,14 +1273,14 @@
               </tr>
               <tr>
                 <!-- <td>Toyota Avanza</td> -->
-                <th class="border-bottom-0 border-right-0 py-0 pt-3 pl-3 pl-sm-2 pl-md-3"><a href="#">Toyota Avanza</a>
+                <th class="border-bottom-0 border-right-0 py-0 pt-3 ps-3 ps-sm-2 ps-md-3"><a href="#">Toyota Avanza</a>
                 </th>
                 <!-- <td>Faw Sirius</td> -->
-                <th class="border-bottom-0 border-left-0 py-0 pt-3 pl-3 pl-sm-2 pl-md-3"><a href="#">Sirius</a></th>
+                <th class="border-bottom-0 border-start-0 py-0 pt-3 ps-3 ps-sm-2 ps-md-3"><a href="#">Sirius</a></th>
               </tr>
               <tr>
-                <td class="text-secondary costs pt-0 pb-3 pl-3 pl-sm-2 pl-md-3">PKR 4,326,000</td>
-                <td class="text-secondary costs pt-0 pb-3 pl-3 pl-sm-2 pl-md-3">PKR 1,885,000</td>
+                <td class="text-secondary costs pt-0 pb-3 ps-3 ps-sm-2 ps-md-3">PKR 4,326,000</td>
+                <td class="text-secondary costs pt-0 pb-3 ps-3 ps-sm-2 ps-md-3">PKR 1,885,000</td>
               </tr>
               <tr>
                 <td colspan="2" class="text-center border-top-0 VS text-white pb-4"><a href="#"
@@ -1299,14 +1299,14 @@
               </tr>
               <tr>
                 <!-- <td>Toyota Avanza</td> -->
-                <th class="border-bottom-0 border-right-0 py-0 pt-3 pl-3 pl-sm-2 pl-md-3"><a href="#">Toyota Avanza</a>
+                <th class="border-bottom-0 border-right-0 py-0 pt-3 ps-3 ps-sm-2 ps-md-3"><a href="#">Toyota Avanza</a>
                 </th>
                 <!-- <td>Faw Sirius</td> -->
-                <th class="border-bottom-0 border-left-0 py-0 pt-3 pl-3 pl-sm-2 pl-md-3"><a href="#">Sirius</a></th>
+                <th class="border-bottom-0 border-start-0 py-0 pt-3 ps-3 ps-sm-2 ps-md-3"><a href="#">Sirius</a></th>
               </tr>
               <tr>
-                <td class="text-secondary costs pt-0 pb-3 pl-3 pl-sm-2 pl-md-3">PKR 4,326,000</td>
-                <td class="text-secondary costs pt-0 pb-3 pl-3 pl-sm-2 pl-md-3">PKR 1,885,000</td>
+                <td class="text-secondary costs pt-0 pb-3 ps-3 ps-sm-2 ps-md-3">PKR 4,326,000</td>
+                <td class="text-secondary costs pt-0 pb-3 ps-3 ps-sm-2 ps-md-3">PKR 1,885,000</td>
               </tr>
               <tr>
                 <td colspan="2" class="text-center border-top-0 VS text-white pb-4"><a href="#"
@@ -1323,10 +1323,10 @@
   <Footer id="footer">
     <div class="footer-top text-white py-5">
       <div class=" container">
-        <div class="row justify-content-between text-center text-md-left  ">
+        <div class="d-md-flex justify-content-between text-center text-md-start  ">
           <!-- FOOTER TOP -->
 
-          <section id="Resources" class="pb-5 pb-md-0col-xl-2 col-lg-2 col-md-2 ">
+          <section id="Resources" class="pb-5 pb-md-0 col-xl-2 col-lg-2 col-md-2 ">
             <h5 class="text-white pb-5">Resources</h5>
             <ul class="px-0 text-secondary">
               <li class="list-unstyled text-decoration-none mb-2"><a href="#">About PakDrives</a></li>
@@ -1340,7 +1340,7 @@
 
           </section>
 
-          <section id="ProvinceCars" class="pb-5 pb-md-0col-xl-3 col-lg-3 col-md-3 ">
+          <section id="ProvinceCars" class="pb-5 pb-md-0 col-xl-3 col-lg-3 col-md-3 ">
             <h5 class="text-white pb-5">Cars by Province</h5>
             <ul class="px-0 text-secondary">
               <li class="list-unstyled text-decoration-none mb-2"><a href="#">Cars in Punjab</a></li>
@@ -1352,17 +1352,17 @@
             </ul>
 
           </section>
-          <section id="Contact" class="pb-5 pb-md-0col-xl-3 col-lg-3 col-md-4 ">
+          <section id="Contact" class="pb-5 pb-md-0 col-xl-3 col-lg-3 col-md-4 ">
             <h5 class="text-white pb-5">Contact</h5>
             <ul class="px-0 text-secondary">
-              <li class="list-unstyled text-decoration-none mb-2 mb-md-3 mb-lg-2"><a href="#"><span class="ContactIcons mr-2"><i
+              <li class="list-unstyled text-decoration-none mb-2 mb-md-3 mb-lg-2"><a href="#"><span class="ContactIcons me-2"><i
                       class="fas fa-car footerIcon "></i></span>5 Milburn Ct, Endeavor Hills, Melbourne, Australia</a></li>
-              <li class="list-unstyled text-decoration-none mb-2 mb-md-3 mb-lg-2"><a href="mailto:pakdrives@example.com"><span class="ContactIcons mr-2"><i
+              <li class="list-unstyled text-decoration-none mb-2 mb-md-3 mb-lg-2"><a href="mailto:pakdrives@example.com"><span class="ContactIcons me-2"><i
                       class="fas fa-envelope footerIcon"></i></span>pakdrives@example.com</a></li>
-              <li class="list-unstyled text-decoration-none mb-2 mb-md-3 mb-lg-2"><a href="tel:+01123456789"><span class="ContactIcons mr-2"><i
+              <li class="list-unstyled text-decoration-none mb-2 mb-md-3 mb-lg-2"><a href="tel:+01123456789"><span class="ContactIcons me-2"><i
                       class=" fas fa-phone-alt footerIcon"></i></span>+01 1234 567 89</a></li>
             </ul>
-            <form  action="somefile.php" method="post" name="myForm" class="row ml-0 mt-md-4 mt-4 no-gutters">
+            <form  action="somefile.php" method="post" name="myForm" class="d-flex ms-0 mt-md-4 mt-4 no-gutters">
               <div class="col-8 col-md-7">
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
               </div>
@@ -1372,19 +1372,19 @@
 
           <section id="Follow" class="pb-5 pb-md-0 col-xl-3 col-lg-3 col-md-3 ">
             <h5 class="text-white pb-5 mb-0">Follow Us</h5>
-            <ul class="ml-0 px-0 row justify-content-center justify-content-md-start">
-              <li class="mr-3 mr-md-2 mr-lg-3   list-unstyled text-decoration-none"><a href="#"><span
+            <ul class="ms-0 px-0 d-flex justify-content-center justify-content-md-start">
+              <li class="me-3 me-md-2 me-lg-3   list-unstyled text-decoration-none"><a href="#"><span
                     class="footerSocialIcons"><i class="fab fa-facebook-f"></i></span></a></li>
-              <li class="mr-3 mr-md-2 mr-lg-3  list-unstyled text-decoration-none "><a href="#"><span
+              <li class="me-3 me-md-2 me-lg-3  list-unstyled text-decoration-none "><a href="#"><span
                     class="footerSocialIcons"><i class="fab fa-linkedin-in"></i></span></a></li>
-              <li class="mr-3 mr-md-2 mr-lg-3  list-unstyled text-decoration-none"><a href="#"><span
+              <li class="me-3 me-md-2 me-lg-3  list-unstyled text-decoration-none"><a href="#"><span
                     class="footerSocialIcons"><i class="fab fa-twitter"></i></span></a></li>
-              <li class="mr-3 mr-md-2 mr-lg-3  list-unstyled text-decoration-none"><a href="#"><span
+              <li class="me-3 me-md-2 me-lg-3  list-unstyled text-decoration-none"><a href="#"><span
                     class="footerSocialIcons"><i class="fab fa-google-plus-g"></i></span></a></li>
             </ul>
             <h5 class="position-relative mt-5 mt-md-4 pb-5 mb-0">Donwload App</h5>
-            <div class="row badges justify-content-center justify-content-md-between ml-0">
-              <a href="#" class="mb-md-3 mb-lg-0 mr-3 mr-md-0"><img src="./images/google-play-badge.png" alt="google play store badge"></a>
+            <div class="d-flex badges justify-content-center justify-content-md-between ms-0">
+              <a href="#" class="mb-md-3 mb-lg-0 me-3 me-md-0"><img src="./images/google-play-badge.png" alt="google play store badge"></a>
               <a href="#"><img src="./images/app-store-Badge.png" alt="apple app store badge"></a>
             </div>
           </section>
@@ -1399,7 +1399,7 @@
 
     <div id="bottom" class="footer-bottom py-3">
       <div class="container">
-        <div class="row justify-content-center">
+        <div class="d-flex justify-content-center">
 
           <p class="my-0">Copyright &#169; 2024-<span>Rahul Gianchandani</span>. All rights reserved. </p>
 
@@ -1422,9 +1422,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
   <!-- OWL CAROUSEL CDN SCRIPT LINK -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
